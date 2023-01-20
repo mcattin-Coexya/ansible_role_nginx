@@ -16,7 +16,7 @@ jobs:
           cd ansible-collection_webapp
           git submodule update --init --recursive
           cd roles/nginx
-          git pull origin main
+          git pull origin master
           cd ../..
           git add .
           git config --global user.email "mcattin"
